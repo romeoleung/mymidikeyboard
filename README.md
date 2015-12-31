@@ -29,12 +29,12 @@ Default is the original piano keyboard, 'asdf' for 'C, D, E, F' etc.
 
 Use small number keyboard to generate chords. You need to first press any key on the keyboard to set the root note before pressing the chord keys.
 Current setting is:
-Num3: Major
-Num2: Minor
-Num1: Dom7
-Num6: Maj7
-Num5: Min7
-Num4: 7sus
-Num9: 6add9
-Num8: Min9
-Num7: Dom9
+	- Num3: Major
+	- Num2: Minor
+	- Num1: Dom7
+	- Num6: Maj7
+	- Num5: Min7
+	- Num4: 7sus
+	- Num9: 6add9
+	- Num8: Min9
+	- Num7: Dom9
