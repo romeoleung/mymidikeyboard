@@ -1,0 +1,29 @@
+html
+  head
+    title Testing node.js + socket.io + midi + Ableton Live
+    link(rel='stylesheet', href='/stylesheet/style.css')
+  body
+    h1#test This is a test.
+    div#messagebox
+    select#keyboardLayout
+
+    #container
+        ul#controller
+            li.button 
+                a#play(href='#',data-message='250') 
+                    span Play
+            li.button 
+                a#stop(href='#',data-message='252') 
+                    span Stop
+            li.button 
+                a#record(href='#',data-message='255') 
+                    span Record
+        #keyboard
+        small Controlling Ableton Live with Node.JS, Socket.IO, and MIDI, with music thero supported by Teoria.js.
+    script(type="text/javascript", src="/javascript/jquery-2.1.4.min.js")
+    script(type="text/javascript", src="/socket.io/socket.io.js")
+    script(type="text/javascript", src="/javascript/lib/keyboardLayouts.js")
+    script(type="text/javascript", src="/javascript/lib/notes.js")
+    script(type="text/javascript", src="/javascript/lib/controlkeys.js")
+    script(type="text/javascript", src="/javascript/main.js")
+    //- script(type="text/javascript", src="/javascripts/bundle.js")
